@@ -1,14 +1,20 @@
 import Recent from "./recent/Recent";
+import Hero from "./hero/Hero";
+import Featured from "./featured/Featured";
+import Awards from "./awards/Awards";
+import Location from "./location/Location";
+import Team from "./team/Team";
+import Price from "./price/Price";
 
 const Home = () => {
   return (
     <>
       {/* <Hero /> */}
-      {/* <Featured /> */}
+      <Featured />
       <Recent />
-      {/* <Awards />
-      <Location />
-      <Team /> */}
+      {/* <Awards /> */}
+      {/* <Location /> */}
+      {/* <Team /> */}
       {/* <Price /> */}
     </>
   );
